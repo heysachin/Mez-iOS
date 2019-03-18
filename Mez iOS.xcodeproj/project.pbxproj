@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F17862223F93E7006EE536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F17861223F93E7006EE536 /* AppDelegate.swift */; };
+		03F17864223F93E7006EE536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F17863223F93E7006EE536 /* ViewController.swift */; };
+		03F17867223F93E7006EE536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F17865223F93E7006EE536 /* Main.storyboard */; };
+		03F17869223F93E8006EE536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F17868223F93E8006EE536 /* Assets.xcassets */; };
+		03F1786C223F93E8006EE536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F1786A223F93E8006EE536 /* LaunchScreen.storyboard */; };
+		03F17877223F93E8006EE536 /* Mez_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F17876223F93E8006EE536 /* Mez_iOSTests.swift */; };
+		03F17882223F93E8006EE536 /* Mez_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F17881223F93E8006EE536 /* Mez_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F17873223F93E8006EE536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F17856223F93E7006EE536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F1785D223F93E7006EE536;
+			remoteInfo = "Mez iOS";
+		};
+		03F1787E223F93E8006EE536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F17856223F93E7006EE536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F1785D223F93E7006EE536;
+			remoteInfo = "Mez iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F1785E223F93E7006EE536 /* Mez iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mez iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F17861223F93E7006EE536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F17863223F93E7006EE536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F17866223F93E7006EE536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F17868223F93E8006EE536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F1786B223F93E8006EE536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F1786D223F93E8006EE536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F17872223F93E8006EE536 /* Mez iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mez iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F17876223F93E8006EE536 /* Mez_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mez_iOSTests.swift; sourceTree = "<group>"; };
+		03F17878223F93E8006EE536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F1787D223F93E8006EE536 /* Mez iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mez iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F17881223F93E8006EE536 /* Mez_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mez_iOSUITests.swift; sourceTree = "<group>"; };
+		03F17883223F93E8006EE536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F1785B223F93E7006EE536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F1786F223F93E8006EE536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F1787A223F93E8006EE536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F17855223F93E7006EE536 = {
+			isa = PBXGroup;
+			children = (
+				03F17860223F93E7006EE536 /* Mez iOS */,
+				03F17875223F93E8006EE536 /* Mez iOSTests */,
+				03F17880223F93E8006EE536 /* Mez iOSUITests */,
+				03F1785F223F93E7006EE536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F1785F223F93E7006EE536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F1785E223F93E7006EE536 /* Mez iOS.app */,
+				03F17872223F93E8006EE536 /* Mez iOSTests.xctest */,
+				03F1787D223F93E8006EE536 /* Mez iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F17860223F93E7006EE536 /* Mez iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03F17861223F93E7006EE536 /* AppDelegate.swift */,
+				03F17863223F93E7006EE536 /* ViewController.swift */,
+				03F17865223F93E7006EE536 /* Main.storyboard */,
+				03F17868223F93E8006EE536 /* Assets.xcassets */,
+				03F1786A223F93E8006EE536 /* LaunchScreen.storyboard */,
+				03F1786D223F93E8006EE536 /* Info.plist */,
+			);
+			path = "Mez iOS";
+			sourceTree = "<group>";
+		};
+		03F17875223F93E8006EE536 /* Mez iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F17876223F93E8006EE536 /* Mez_iOSTests.swift */,
+				03F17878223F93E8006EE536 /* Info.plist */,
+			);
+			path = "Mez iOSTests";
+			sourceTree = "<group>";
+		};
+		03F17880223F93E8006EE536 /* Mez iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F17881223F93E8006EE536 /* Mez_iOSUITests.swift */,
+				03F17883223F93E8006EE536 /* Info.plist */,
+			);
+			path = "Mez iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F1785D223F93E7006EE536 /* Mez iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F17886223F93E8006EE536 /* Build configuration list for PBXNativeTarget "Mez iOS" */;
+			buildPhases = (
+				03F1785A223F93E7006EE536 /* Sources */,
+				03F1785B223F93E7006EE536 /* Frameworks */,
+				03F1785C223F93E7006EE536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mez iOS";
+			productName = "Mez iOS";
+			productReference = 03F1785E223F93E7006EE536 /* Mez iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F17871223F93E8006EE536 /* Mez iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F17889223F93E8006EE536 /* Build configuration list for PBXNativeTarget "Mez iOSTests" */;
+			buildPhases = (
+				03F1786E223F93E8006EE536 /* Sources */,
+				03F1786F223F93E8006EE536 /* Frameworks */,
+				03F17870223F93E8006EE536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F17874223F93E8006EE536 /* PBXTargetDependency */,
+			);
+			name = "Mez iOSTests";
+			productName = "Mez iOSTests";
+			productReference = 03F17872223F93E8006EE536 /* Mez iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F1787C223F93E8006EE536 /* Mez iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F1788C223F93E8006EE536 /* Build configuration list for PBXNativeTarget "Mez iOSUITests" */;
+			buildPhases = (
+				03F17879223F93E8006EE536 /* Sources */,
+				03F1787A223F93E8006EE536 /* Frameworks */,
+				03F1787B223F93E8006EE536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F1787F223F93E8006EE536 /* PBXTargetDependency */,
+			);
+			name = "Mez iOSUITests";
+			productName = "Mez iOSUITests";
+			productReference = 03F1787D223F93E8006EE536 /* Mez iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F17856223F93E7006EE536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sachin Dev";
+				TargetAttributes = {
+					03F1785D223F93E7006EE536 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					03F17871223F93E8006EE536 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 03F1785D223F93E7006EE536;
+					};
+					03F1787C223F93E8006EE536 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 03F1785D223F93E7006EE536;
+					};
+				};
+			};
+			buildConfigurationList = 03F17859223F93E7006EE536 /* Build configuration list for PBXProject "Mez iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F17855223F93E7006EE536;
+			productRefGroup = 03F1785F223F93E7006EE536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F1785D223F93E7006EE536 /* Mez iOS */,
+				03F17871223F93E8006EE536 /* Mez iOSTests */,
+				03F1787C223F93E8006EE536 /* Mez iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F1785C223F93E7006EE536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F1786C223F93E8006EE536 /* LaunchScreen.storyboard in Resources */,
+				03F17869223F93E8006EE536 /* Assets.xcassets in Resources */,
+				03F17867223F93E7006EE536 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F17870223F93E8006EE536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F1787B223F93E8006EE536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F1785A223F93E7006EE536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F17864223F93E7006EE536 /* ViewController.swift in Sources */,
+				03F17862223F93E7006EE536 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F1786E223F93E8006EE536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F17877223F93E8006EE536 /* Mez_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F17879223F93E8006EE536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F17882223F93E8006EE536 /* Mez_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F17874223F93E8006EE536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F1785D223F93E7006EE536 /* Mez iOS */;
+			targetProxy = 03F17873223F93E8006EE536 /* PBXContainerItemProxy */;
+		};
+		03F1787F223F93E8006EE536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F1785D223F93E7006EE536 /* Mez iOS */;
+			targetProxy = 03F1787E223F93E8006EE536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F17865223F93E7006EE536 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F17866223F93E7006EE536 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F1786A223F93E8006EE536 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F1786B223F93E8006EE536 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F17884223F93E8006EE536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F17885223F93E8006EE536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F17887223F93E8006EE536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJF528ZY7W;
+				INFOPLIST_FILE = "Mez iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tricodia.Mez-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F17888223F93E8006EE536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJF528ZY7W;
+				INFOPLIST_FILE = "Mez iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tricodia.Mez-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F1788A223F93E8006EE536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJF528ZY7W;
+				INFOPLIST_FILE = "Mez iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tricodia.Mez-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mez iOS.app/Mez iOS";
+			};
+			name = Debug;
+		};
+		03F1788B223F93E8006EE536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJF528ZY7W;
+				INFOPLIST_FILE = "Mez iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tricodia.Mez-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mez iOS.app/Mez iOS";
+			};
+			name = Release;
+		};
+		03F1788D223F93E8006EE536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJF528ZY7W;
+				INFOPLIST_FILE = "Mez iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tricodia.Mez-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mez iOS";
+			};
+			name = Debug;
+		};
+		03F1788E223F93E8006EE536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJF528ZY7W;
+				INFOPLIST_FILE = "Mez iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tricodia.Mez-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mez iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F17859223F93E7006EE536 /* Build configuration list for PBXProject "Mez iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F17884223F93E8006EE536 /* Debug */,
+				03F17885223F93E8006EE536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F17886223F93E8006EE536 /* Build configuration list for PBXNativeTarget "Mez iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F17887223F93E8006EE536 /* Debug */,
+				03F17888223F93E8006EE536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F17889223F93E8006EE536 /* Build configuration list for PBXNativeTarget "Mez iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F1788A223F93E8006EE536 /* Debug */,
+				03F1788B223F93E8006EE536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F1788C223F93E8006EE536 /* Build configuration list for PBXNativeTarget "Mez iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F1788D223F93E8006EE536 /* Debug */,
+				03F1788E223F93E8006EE536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F17856223F93E7006EE536 /* Project object */;
+}
