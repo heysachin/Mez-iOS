@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let myURL = URL(string:"https://tricodia.com/mez")
+        let myRequest = URLRequest(url: myURL!)
+        webView.load(myRequest)
     }
 
 
 }
-

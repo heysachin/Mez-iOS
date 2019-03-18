@@ -14,6 +14,7 @@
 		03F1786C223F93E8006EE536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F1786A223F93E8006EE536 /* LaunchScreen.storyboard */; };
 		03F17877223F93E8006EE536 /* Mez_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F17876223F93E8006EE536 /* Mez_iOSTests.swift */; };
 		03F17882223F93E8006EE536 /* Mez_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F17881223F93E8006EE536 /* Mez_iOSUITests.swift */; };
+		03F17891223F94DF006EE536 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F17890223F94DF006EE536 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		03F1787D223F93E8006EE536 /* Mez iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mez iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F17881223F93E8006EE536 /* Mez_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mez_iOSUITests.swift; sourceTree = "<group>"; };
 		03F17883223F93E8006EE536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F17890223F94DF006EE536 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F17891223F94DF006EE536 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				03F17875223F93E8006EE536 /* Mez iOSTests */,
 				03F17880223F93E8006EE536 /* Mez iOSUITests */,
 				03F1785F223F93E7006EE536 /* Products */,
+				03F1788F223F94DF006EE536 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				03F17883223F93E8006EE536 /* Info.plist */,
 			);
 			path = "Mez iOSUITests";
+			sourceTree = "<group>";
+		};
+		03F1788F223F94DF006EE536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F17890223F94DF006EE536 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJF528ZY7W;
 				INFOPLIST_FILE = "Mez iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJF528ZY7W;
 				INFOPLIST_FILE = "Mez iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
